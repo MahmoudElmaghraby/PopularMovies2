@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="Popular_Sort">Popular Movies</string>
+    <string name="TopReated_Sort">Top Reated Movies</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_activity_details">Details Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="trailers">Trailers : </string>
+    <string name="reviews">Reviews :</string>
+    <string name="vote_avrage">Vote Avrage :</string>
+    <string name="released_on">Released On :</string>
+
+    <!-- Set your API key in the next line !-->
+    <string name="myApiKeyValue"></string>
+
+</resources>
