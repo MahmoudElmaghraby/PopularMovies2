@@ -169,7 +169,7 @@ public class DetailsActivityFragment extends Fragment implements View.OnClickLis
 
         if(mmMovieId == "") {
 
-            //you may find error her in first time ... so just run the app and it will fix
+            //you may find error her in first time .... so just run the app and it will fix
             getActivity().getContentResolver().insert(MoviesTableTable.CONTENT_URI,MoviesTableTable.getContentValues(movieModel,false));
             favoriteBtn.setTextColor(Color.RED);
             Toast.makeText(getContext(),"Movie Add to Favorite",Toast.LENGTH_SHORT).show();

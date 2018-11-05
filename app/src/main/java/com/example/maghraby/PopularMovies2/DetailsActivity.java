@@ -19,7 +19,6 @@ public class DetailsActivity extends AppCompatActivity {
             DetailsActivityFragment detailsActivityFragment = DetailsActivityFragment.newInstance(movieModel);
             getSupportFragmentManager().beginTransaction().replace(R.id.detail_container, detailsActivityFragment).commit();
 
-
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
